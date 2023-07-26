@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+body{
+    margin: 0 15vw;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.right_nav_menu{
+    display: flex;
+    gap: 25px;
+}
+.right_nav_menu li{
+    display: flex;
+    gap: 30px;
+}
+.right_nav_menu button {
+    background: #1e1e21;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 6px 30px;
+    margin-top: -5px;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+main .main{
+    /* width: 100vw; */
+    display: flex;
+    margin: -31% 100px 0 16%;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_right .onEar img{
+    width: 24vw;
+    margin-left: 110px;
+    
+}
+.main_right h1,h3,p{
+    margin-left: 70px;
+    padding: 10px ;
+}
+.main_right h1{
+    font-size: 40px;
+}
+.main_right h3{
+    font-size: 14px;
+}
+.main_right p{
+    font-size: 11px;
+    margin-right: 130px;
+    line-height: 23px;
+}
+.main_right_buton{
+    margin: 10px 150px 10px 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #1e1e21;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 6px 20px;
+}
+.main_right_buton span{
+    background-color: #1e1e21;
+}
+.main_right_buton img{
+    height: 16px;
+}
+.add{
+    font-size: 12px;
+}
+.first_section {
+    margin-top: 50px;
+}
+.first_section_company_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+    margin-left: 8vw;
+}
+.first_section_company_logo a img{
+    /* height: 20px; */
+    width: 80px;
+}
+.first_section_speces_logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 90px
+}
+.first_section_speces_logo img{
+    width: 180px;
+    height: 60px;
+}
+.first_section_product_1{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bluetooth{
+    margin-left: 160px;
+    line-height: 5px;
+    margin-bottom: 20px;
+}
+.microphone{
+    margin-left: 160px;
+    line-height: 5px;
+    margin-top: 20px;
+}
+.battery{
+    margin-left: 125px;
+    line-height: 5px;
+    margin-bottom: 20px;
+}
+.charger{
+    margin-left: 125px;
+    line-height: 5px;
+}
+.bluetooth img{
+    margin-left: 80px;
+}
+.microphone img{
+    margin-left: 80px;
+}
+.battery img{
+    margin-left: 80px;
+}
+.charger img{
+    margin-left: 80px;
+}
+.para{
+    font-size: 13px;
+}
+.product_image{
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-right: 200px;
+    margin-top: -260px;
+}
+.para_mic{
+    margin-top: -6px;
+    line-height: 20px;
+    font-size: 13px;
+}
+.product_details{
+    margin-right: 100px;
+    margin-left: -100px;
+}
+.case_logo{
+    /* margin-top: 190px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 90px
+}
+.case_logo img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.first_section_product_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 50px 0 250px;
+}
+.case_image img{
+    width: 250px;    
+}
+.case_info .para_2{
+    width: 180px;
+    margin: 20px 0 20px 80px;
+    background-color: #1e1e21;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+}
+.buy_now_section {
+    background: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 50px; */
+    margin-top: 70px;
+    padding: 40px 0;
+  }
+  
+  .buy_now_section div,
+  .buy_now_section p,
+  .buy_now_section h3,
+  .buy_now_section img {
+    background-color: transparent;
+  }
+  .buy_now_description{
+    margin-right: 5%;
+    margin-left: 8%;
+  }
+  .buy_now_description span{
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 45%;
+    height: 45px;
+    border-radius: 12px;
+  }
+  .buy_now_image img{
+    margin-right: 80px;
+}
+.product_logo{
+    margin: 10% 0 7% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product_logo img{
+    width: 25%;
+    margin-left: 15%;
+}
+
+
+.product_items{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+    margin-left: 220px;
+    margin-right: 100px;
+}
+.product_card {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background: #1e1e21;
+    border-radius: 8px;
+    
+}
+.card_img {
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    background: #1e1e21;
+    z-index: 100;
+    top: -40px;
+    left: 30px;
+}
+.product_card img,
+.product_card p,
+.product_card span,
+.product_card div{
+    background-color: transparent;
+}
+.product_info{
+    display: flex;
+    align-items: center;
+    background: #1e1e21;
+    margin-top: 70px;
+    margin-left: -70px;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.product_info span{
+    font-size: 12px;
+    font-weight: 300;
+}
+.product_info div{
+    background: #0f0f10;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.product_info div img{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+footer section{
+    margin: 90px 0px 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_product h3{
+    margin-left: -10px;
+}
+.about_support h3{
+    margin-left: -10px;
+}
+.about_product ul li {
+    font-size: 15px;
+}
+.about_support ul li {
+    font-size: 15px;
+}
+.media_email{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #1e1e21;
+    border-radius: 8px;
+}
+.media_email p{
+    margin: 0 30px 0 10px;
+    background-color: transparent;
+}
+.media_email div{
+    margin-right: 13px;
+    border-radius: 8px;
+    display: flex;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    padding: 0 15px;
+    width: 140px;
+}
+.media_email div p{
+    margin-left: 20px;
+}
+.media_email div img{
+    margin-left: 40px;
+}
+.media ul{
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+}
